@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activerecord (2.2.3)
+      activesupport (= 2.2.3)
+    activesupport (2.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord (= 2.2.3)
