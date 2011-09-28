@@ -6,7 +6,7 @@ require 'activerecord'
 
 use Rack::Session::Cookie
 use OmniAuth::Builder do
-	provider :twitter, 'wPepYbL3OqE6HjMzAReV4Q', 'FFIxQhM1w6pnJPRYqQBeL3dIzrTmptCncZeEFe8mw'
+	provider :twitter, 'Consumer key', 'Consumer secret'
 end
 ActiveRecord::Base.establish_connection(YAML.load_file('database.yml'))
 class User < ActiveRecord::Base
